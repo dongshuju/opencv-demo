@@ -18,6 +18,7 @@
 		834147BA2101B2D700293513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 834147B92101B2D700293513 /* main.m */; };
 		834147C42101B2D700293513 /* opencv_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 834147C32101B2D700293513 /* opencv_demoTests.m */; };
 		834147CF2101B2D700293513 /* opencv_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 834147CE2101B2D700293513 /* opencv_demoUITests.m */; };
+		834147DF2101B4B300293513 /* CVImageHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 834147DE2101B4B300293513 /* CVImageHelper.mm */; };
 		D65BD7B8BCB48EE52BFB5EA4 /* libPods-opencv-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C88A60EDECD2283A6049003C /* libPods-opencv-demo.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		834147CA2101B2D700293513 /* opencv-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "opencv-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834147CE2101B2D700293513 /* opencv_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opencv_demoUITests.m; sourceTree = "<group>"; };
 		834147D02101B2D700293513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834147DD2101B4B300293513 /* CVImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVImageHelper.h; sourceTree = "<group>"; };
+		834147DE2101B4B300293513 /* CVImageHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVImageHelper.mm; sourceTree = "<group>"; };
 		94F114528A6B607CBFF9DDD8 /* Pods-opencv-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencv-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-opencv-demo/Pods-opencv-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		BCEEA2087B8748DBDA00772C /* Pods-opencv-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencv-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-opencv-demoTests/Pods-opencv-demoTests.release.xcconfig"; sourceTree = "<group>"; };
 		C81CDAEE2E210D4096BAE395 /* Pods-opencv-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencv-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-opencv-demo/Pods-opencv-demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +136,7 @@
 		834147A62101B2D600293513 /* opencv-demo */ = {
 			isa = PBXGroup;
 			children = (
+				834147DC2101B42400293513 /* opencv-utills */,
 				834147A72101B2D600293513 /* AppDelegate.h */,
 				834147A82101B2D600293513 /* AppDelegate.m */,
 				834147AA2101B2D600293513 /* ViewController.h */,
@@ -163,6 +167,15 @@
 				834147D02101B2D700293513 /* Info.plist */,
 			);
 			path = "opencv-demoUITests";
+			sourceTree = "<group>";
+		};
+		834147DC2101B42400293513 /* opencv-utills */ = {
+			isa = PBXGroup;
+			children = (
+				834147DD2101B4B300293513 /* CVImageHelper.h */,
+				834147DE2101B4B300293513 /* CVImageHelper.mm */,
+			);
+			path = "opencv-utills";
 			sourceTree = "<group>";
 		};
 		CD0297F68B5FE80B391275A9 /* Frameworks */ = {
@@ -461,6 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834147DF2101B4B300293513 /* CVImageHelper.mm in Sources */,
 				834147B22101B2D600293513 /* opencv_demo.xcdatamodeld in Sources */,
 				834147AC2101B2D600293513 /* ViewController.m in Sources */,
 				834147BA2101B2D700293513 /* main.m in Sources */,
