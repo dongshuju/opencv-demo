@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FB83A955EE29AC583B5F5A0 /* libPods-opencv-demoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A04A09A579362275E93053 /* libPods-opencv-demoTests.a */; };
+		392CE4474F27E7068C2EB1F4 /* libPods-opencv-demoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8B296E0F608F1AFDA8F8D9 /* libPods-opencv-demoUITests.a */; };
+		834147A92101B2D600293513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 834147A82101B2D600293513 /* AppDelegate.m */; };
+		834147AC2101B2D600293513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834147AB2101B2D600293513 /* ViewController.m */; };
+		834147AF2101B2D600293513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834147AD2101B2D600293513 /* Main.storyboard */; };
+		834147B22101B2D600293513 /* opencv_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 834147B02101B2D600293513 /* opencv_demo.xcdatamodeld */; };
+		834147B42101B2D700293513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834147B32101B2D700293513 /* Assets.xcassets */; };
+		834147B72101B2D700293513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834147B52101B2D700293513 /* LaunchScreen.storyboard */; };
+		834147BA2101B2D700293513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 834147B92101B2D700293513 /* main.m */; };
+		834147C42101B2D700293513 /* opencv_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 834147C32101B2D700293513 /* opencv_demoTests.m */; };
+		834147CF2101B2D700293513 /* opencv_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 834147CE2101B2D700293513 /* opencv_demoUITests.m */; };
+		D65BD7B8BCB48EE52BFB5EA4 /* libPods-opencv-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C88A60EDECD2283A6049003C /* libPods-opencv-demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		834147C02101B2D700293513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8341479C2101B2D600293513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834147A32101B2D600293513;
+			remoteInfo = "opencv-demo";
+		};
+		834147CB2101B2D700293513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8341479C2101B2D600293513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834147A32101B2D600293513;
+			remoteInfo = "opencv-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08A04A09A579362275E93053 /* libPods-opencv-demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-opencv-demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2526ADDDAD35904425D4F6B2 /* Pods-opencv-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencv-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-opencv-demoTests/Pods-opencv-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A589207DA9BDD425D138517 /* Pods-opencv-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencv-demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-opencv-demoUITests/Pods-opencv-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B8B296E0F608F1AFDA8F8D9 /* libPods-opencv-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-opencv-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9FF38CE2C49548C35F8E68 /* Pods-opencv-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencv-demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-opencv-demoUITests/Pods-opencv-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		834147A42101B2D600293513 /* opencv-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "opencv-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834147A72101B2D600293513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		834147A82101B2D600293513 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		834147AA2101B2D600293513 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		834147AB2101B2D600293513 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		834147AE2101B2D600293513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		834147B12101B2D600293513 /* opencv_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = opencv_demo.xcdatamodel; sourceTree = "<group>"; };
+		834147B32101B2D700293513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834147B62101B2D700293513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		834147B82101B2D700293513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834147B92101B2D700293513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		834147BF2101B2D700293513 /* opencv-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "opencv-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834147C32101B2D700293513 /* opencv_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opencv_demoTests.m; sourceTree = "<group>"; };
+		834147C52101B2D700293513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834147CA2101B2D700293513 /* opencv-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "opencv-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834147CE2101B2D700293513 /* opencv_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opencv_demoUITests.m; sourceTree = "<group>"; };
+		834147D02101B2D700293513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F114528A6B607CBFF9DDD8 /* Pods-opencv-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencv-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-opencv-demo/Pods-opencv-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		BCEEA2087B8748DBDA00772C /* Pods-opencv-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencv-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-opencv-demoTests/Pods-opencv-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C81CDAEE2E210D4096BAE395 /* Pods-opencv-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencv-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-opencv-demo/Pods-opencv-demo.release.xcconfig"; sourceTree = "<group>"; };
+		C88A60EDECD2283A6049003C /* libPods-opencv-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-opencv-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834147A12101B2D600293513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65BD7B8BCB48EE52BFB5EA4 /* libPods-opencv-demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834147BC2101B2D700293513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB83A955EE29AC583B5F5A0 /* libPods-opencv-demoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834147C72101B2D700293513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392CE4474F27E7068C2EB1F4 /* libPods-opencv-demoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FFE1E19B191AA2422F3F82F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F114528A6B607CBFF9DDD8 /* Pods-opencv-demo.debug.xcconfig */,
+				C81CDAEE2E210D4096BAE395 /* Pods-opencv-demo.release.xcconfig */,
+				2526ADDDAD35904425D4F6B2 /* Pods-opencv-demoTests.debug.xcconfig */,
+				BCEEA2087B8748DBDA00772C /* Pods-opencv-demoTests.release.xcconfig */,
+				2A589207DA9BDD425D138517 /* Pods-opencv-demoUITests.debug.xcconfig */,
+				5E9FF38CE2C49548C35F8E68 /* Pods-opencv-demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8341479B2101B2D600293513 = {
+			isa = PBXGroup;
+			children = (
+				834147A62101B2D600293513 /* opencv-demo */,
+				834147C22101B2D700293513 /* opencv-demoTests */,
+				834147CD2101B2D700293513 /* opencv-demoUITests */,
+				834147A52101B2D600293513 /* Products */,
+				6FFE1E19B191AA2422F3F82F /* Pods */,
+				CD0297F68B5FE80B391275A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		834147A52101B2D600293513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834147A42101B2D600293513 /* opencv-demo.app */,
+				834147BF2101B2D700293513 /* opencv-demoTests.xctest */,
+				834147CA2101B2D700293513 /* opencv-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834147A62101B2D600293513 /* opencv-demo */ = {
+			isa = PBXGroup;
+			children = (
+				834147A72101B2D600293513 /* AppDelegate.h */,
+				834147A82101B2D600293513 /* AppDelegate.m */,
+				834147AA2101B2D600293513 /* ViewController.h */,
+				834147AB2101B2D600293513 /* ViewController.m */,
+				834147AD2101B2D600293513 /* Main.storyboard */,
+				834147B32101B2D700293513 /* Assets.xcassets */,
+				834147B52101B2D700293513 /* LaunchScreen.storyboard */,
+				834147B82101B2D700293513 /* Info.plist */,
+				834147B92101B2D700293513 /* main.m */,
+				834147B02101B2D600293513 /* opencv_demo.xcdatamodeld */,
+			);
+			path = "opencv-demo";
+			sourceTree = "<group>";
+		};
+		834147C22101B2D700293513 /* opencv-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				834147C32101B2D700293513 /* opencv_demoTests.m */,
+				834147C52101B2D700293513 /* Info.plist */,
+			);
+			path = "opencv-demoTests";
+			sourceTree = "<group>";
+		};
+		834147CD2101B2D700293513 /* opencv-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				834147CE2101B2D700293513 /* opencv_demoUITests.m */,
+				834147D02101B2D700293513 /* Info.plist */,
+			);
+			path = "opencv-demoUITests";
+			sourceTree = "<group>";
+		};
+		CD0297F68B5FE80B391275A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88A60EDECD2283A6049003C /* libPods-opencv-demo.a */,
+				08A04A09A579362275E93053 /* libPods-opencv-demoTests.a */,
+				2B8B296E0F608F1AFDA8F8D9 /* libPods-opencv-demoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834147A32101B2D600293513 /* opencv-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834147D32101B2D700293513 /* Build configuration list for PBXNativeTarget "opencv-demo" */;
+			buildPhases = (
+				666DA9782DA1942392AB51ED /* [CP] Check Pods Manifest.lock */,
+				834147A02101B2D600293513 /* Sources */,
+				834147A12101B2D600293513 /* Frameworks */,
+				834147A22101B2D600293513 /* Resources */,
+				FEF8F8147711E6583C2E8EF0 /* [CP] Embed Pods Frameworks */,
+				E774C65913D011B4632B3FD0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "opencv-demo";
+			productName = "opencv-demo";
+			productReference = 834147A42101B2D600293513 /* opencv-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		834147BE2101B2D700293513 /* opencv-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834147D62101B2D700293513 /* Build configuration list for PBXNativeTarget "opencv-demoTests" */;
+			buildPhases = (
+				93055DE47BCFD8B4E3325E91 /* [CP] Check Pods Manifest.lock */,
+				834147BB2101B2D700293513 /* Sources */,
+				834147BC2101B2D700293513 /* Frameworks */,
+				834147BD2101B2D700293513 /* Resources */,
+				AF15CA29E4874D3F3EFEFFAE /* [CP] Embed Pods Frameworks */,
+				A0A3FBFD0956BF4C562B45C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834147C12101B2D700293513 /* PBXTargetDependency */,
+			);
+			name = "opencv-demoTests";
+			productName = "opencv-demoTests";
+			productReference = 834147BF2101B2D700293513 /* opencv-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		834147C92101B2D700293513 /* opencv-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834147D92101B2D700293513 /* Build configuration list for PBXNativeTarget "opencv-demoUITests" */;
+			buildPhases = (
+				D83A8FE41CA047E561C596AC /* [CP] Check Pods Manifest.lock */,
+				834147C62101B2D700293513 /* Sources */,
+				834147C72101B2D700293513 /* Frameworks */,
+				834147C82101B2D700293513 /* Resources */,
+				D0A00EA87649669CF0A2A8D7 /* [CP] Embed Pods Frameworks */,
+				8241A83016A42231B818FF2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834147CC2101B2D700293513 /* PBXTargetDependency */,
+			);
+			name = "opencv-demoUITests";
+			productName = "opencv-demoUITests";
+			productReference = 834147CA2101B2D700293513 /* opencv-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8341479C2101B2D600293513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = shuju;
+				TargetAttributes = {
+					834147A32101B2D600293513 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					834147BE2101B2D700293513 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 834147A32101B2D600293513;
+					};
+					834147C92101B2D700293513 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 834147A32101B2D600293513;
+					};
+				};
+			};
+			buildConfigurationList = 8341479F2101B2D600293513 /* Build configuration list for PBXProject "opencv-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8341479B2101B2D600293513;
+			productRefGroup = 834147A52101B2D600293513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834147A32101B2D600293513 /* opencv-demo */,
+				834147BE2101B2D700293513 /* opencv-demoTests */,
+				834147C92101B2D700293513 /* opencv-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834147A22101B2D600293513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834147B72101B2D700293513 /* LaunchScreen.storyboard in Resources */,
+				834147B42101B2D700293513 /* Assets.xcassets in Resources */,
+				834147AF2101B2D600293513 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834147BD2101B2D700293513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834147C82101B2D700293513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		666DA9782DA1942392AB51ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-opencv-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8241A83016A42231B818FF2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencv-demoUITests/Pods-opencv-demoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93055DE47BCFD8B4E3325E91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-opencv-demoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0A3FBFD0956BF4C562B45C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencv-demoTests/Pods-opencv-demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF15CA29E4874D3F3EFEFFAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencv-demoTests/Pods-opencv-demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A00EA87649669CF0A2A8D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencv-demoUITests/Pods-opencv-demoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83A8FE41CA047E561C596AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-opencv-demoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E774C65913D011B4632B3FD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencv-demo/Pods-opencv-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF8F8147711E6583C2E8EF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencv-demo/Pods-opencv-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834147A02101B2D600293513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834147B22101B2D600293513 /* opencv_demo.xcdatamodeld in Sources */,
+				834147AC2101B2D600293513 /* ViewController.m in Sources */,
+				834147BA2101B2D700293513 /* main.m in Sources */,
+				834147A92101B2D600293513 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834147BB2101B2D700293513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834147C42101B2D700293513 /* opencv_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834147C62101B2D700293513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834147CF2101B2D700293513 /* opencv_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		834147C12101B2D700293513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834147A32101B2D600293513 /* opencv-demo */;
+			targetProxy = 834147C02101B2D700293513 /* PBXContainerItemProxy */;
+		};
+		834147CC2101B2D700293513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834147A32101B2D600293513 /* opencv-demo */;
+			targetProxy = 834147CB2101B2D700293513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		834147AD2101B2D600293513 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834147AE2101B2D600293513 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		834147B52101B2D700293513 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834147B62101B2D700293513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		834147D12101B2D700293513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		834147D22101B2D700293513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834147D42101B2D700293513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F114528A6B607CBFF9DDD8 /* Pods-opencv-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD8W4A25LC;
+				INFOPLIST_FILE = "opencv-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shujucn.opencv-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		834147D52101B2D700293513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81CDAEE2E210D4096BAE395 /* Pods-opencv-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD8W4A25LC;
+				INFOPLIST_FILE = "opencv-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shujucn.opencv-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		834147D72101B2D700293513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2526ADDDAD35904425D4F6B2 /* Pods-opencv-demoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD8W4A25LC;
+				INFOPLIST_FILE = "opencv-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shujucn.opencv-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/opencv-demo.app/opencv-demo";
+			};
+			name = Debug;
+		};
+		834147D82101B2D700293513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEEA2087B8748DBDA00772C /* Pods-opencv-demoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD8W4A25LC;
+				INFOPLIST_FILE = "opencv-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shujucn.opencv-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/opencv-demo.app/opencv-demo";
+			};
+			name = Release;
+		};
+		834147DA2101B2D700293513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A589207DA9BDD425D138517 /* Pods-opencv-demoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD8W4A25LC;
+				INFOPLIST_FILE = "opencv-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shujucn.opencv-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "opencv-demo";
+			};
+			name = Debug;
+		};
+		834147DB2101B2D700293513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9FF38CE2C49548C35F8E68 /* Pods-opencv-demoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD8W4A25LC;
+				INFOPLIST_FILE = "opencv-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shujucn.opencv-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "opencv-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8341479F2101B2D600293513 /* Build configuration list for PBXProject "opencv-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834147D12101B2D700293513 /* Debug */,
+				834147D22101B2D700293513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834147D32101B2D700293513 /* Build configuration list for PBXNativeTarget "opencv-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834147D42101B2D700293513 /* Debug */,
+				834147D52101B2D700293513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834147D62101B2D700293513 /* Build configuration list for PBXNativeTarget "opencv-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834147D72101B2D700293513 /* Debug */,
+				834147D82101B2D700293513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834147D92101B2D700293513 /* Build configuration list for PBXNativeTarget "opencv-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834147DA2101B2D700293513 /* Debug */,
+				834147DB2101B2D700293513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		834147B02101B2D600293513 /* opencv_demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				834147B12101B2D600293513 /* opencv_demo.xcdatamodel */,
+			);
+			currentVersion = 834147B12101B2D600293513 /* opencv_demo.xcdatamodel */;
+			path = opencv_demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8341479C2101B2D600293513 /* Project object */;
+}
